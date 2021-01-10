@@ -1,0 +1,18 @@
+footer{
+    display: inline-flex;
+    color: rgb(80, 25, 0);
+    text-align-last: center;
+}
+h3{
+    padding-right: 250px;
+    text-align-last: center;
+}
+header img{
+    width: 280px;
+}
+body{
+    background-color:#e2b183;
+    color: rgb(80, 25, 0);
+    text-align-last: center;
+    text-shadow: 0.3px 1px #1f003b;
+}
