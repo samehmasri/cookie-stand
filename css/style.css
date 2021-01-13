@@ -1,48 +1,80 @@
-footer{
-    display: inline-flex;
-    color: rgb(80, 25, 0);
-    text-align-last: center;
- 
-   
-}
-h3{
-    padding-right: 250px;
-    text-align-last: center;
-}
-header img{
-    width: 280px;
-}
+
 body{
-    background-color:#e2b183;
-    color: rgb(80, 25, 0);
-    text-align-last: center;
-    text-shadow: 0.3px 1px #1f003b;
-    margin-right: 100px;
-}
-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 50%;
-    margin-top: 50px;
-    margin-left: 400px;
-    margin-bottom: -180px;
+ 
+    background-color: #F2C57C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px;
+    padding: 2px;
+  }
+  
+
+  .logo{
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    float: left;
+    transform: rotate(-15deg);
+  }
+  * {box-sizing: border-box;}
+  .topnav {
+    overflow: hidden;
+    background-color: #805736;
+    font-family: 'BioRhyme', serif;
+    margin-bottom: 35px;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #426A5A;
+    color: black;
+    font-weight: bolder;
+    font-size: 150%;
+  }
+  
+  .topnav a.active {
+    background-color: #7FB685;
+    color: white;
+  }
+
+  .websiteEnter{
+    text-align: center;
+    color: #683200;
+    font-size:xx-large;
+    display: inline;
+  }
+  .websiteEnter ul li{
+    display:inline;
+    margin-top: 100px;
+  }
+  .websiteEnter img{
+    width:3%;
+    padding-top: 5px;
+  }
+  .cookieName{
+    color: #683200;
+    font-size:xx-large;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:30px;
     
-}
-th {
-    height: 20px;
-}
-tr {
-    border: 2px solid black;
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-td {
-    border: 2px solid black;
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-footer, h3 {
-    position: relative;
-    top:230px;
-}
+  }
+
+  .cookieRecipe{
+    color: #683200;
+    font-size:x-large;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:30px;
+    
+
+  }
+
+  
