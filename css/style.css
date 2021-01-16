@@ -1,80 +1,158 @@
 
 body{
  
-    background-color: #F2C57C;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 40px;
-    padding: 2px;
-  }
+  background-color:#e2b183;
+  color: rgb(80, 25, 0);
+  text-align-last: center;
+  text-shadow: 0.3px 1px #1f003b;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px;
+  padding: 2px;
+}
+
+
+.logo{
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  float: left;
+  transform: rotate(-15deg);
+}
+* {box-sizing: border-box;}
+.topnav {
+  overflow: hidden;
+  background-color: #805736;
+  font-family: 'BioRhyme', serif;
+  margin-bottom: 35px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #df9f4c;
+  color: black;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+.topnav a.active {
+  background-color: #df9f4c;
+  color: white;
+}
+
+.websiteEnter{
+  text-align: center;
+  color: #683200;
+  font-size:xx-large;
+  display: inline;
+}
+.websiteEnter ul li{
+  display:inline;
+  margin-top: 100px;
+}
+.websiteEnter img{
+  width:3%;
+  padding-top: 5px;
+}
+.cookieName{
+  color: #683200;
+  font-size:xx-large;
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-left:30px;
+  
+}
+
+.cookieRecipe{
+  color: #683200;
+  font-size:x-large;
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-left:30px;
   
 
-  .logo{
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    float: left;
-    transform: rotate(-15deg);
-  }
-  * {box-sizing: border-box;}
-  .topnav {
-    overflow: hidden;
-    background-color: #805736;
-    font-family: 'BioRhyme', serif;
-    margin-bottom: 35px;
-  }
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .topnav a:hover {
-    background-color: #426A5A;
-    color: black;
-    font-weight: bolder;
-    font-size: 150%;
-  }
-  
-  .topnav a.active {
-    background-color: #7FB685;
-    color: white;
-  }
+}
 
-  .websiteEnter{
-    text-align: center;
-    color: #683200;
-    font-size:xx-large;
-    display: inline;
-  }
-  .websiteEnter ul li{
-    display:inline;
-    margin-top: 100px;
-  }
-  .websiteEnter img{
-    width:3%;
-    padding-top: 5px;
-  }
-  .cookieName{
-    color: #683200;
-    font-size:xx-large;
-    padding-top:15px;
-    padding-bottom: 15px;
-    padding-left:30px;
-    
-  }
+.row5{
+  width:100%;
+  display:inline;
+  margin:0px;
+  padding:0px;
+  font-size: larger;   
+}
+.footerStyling{
+  background-color:#805736;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top:40px;
+}
+.row5 p{
+  font-size: large;
+  line-height: 30px;
 
-  .cookieRecipe{
-    color: #683200;
-    font-size:x-large;
-    padding-top:15px;
-    padding-bottom: 15px;
-    padding-left:30px;
-    
+}
 
-  }
+input[type=text], input[type=number] {
+  width: 10%;
+  padding: 20px 20px;
+  margin: 18px;
+  margin-left: 25px;
+  box-sizing: border-box;
+  border: 2px solid rgb(131, 65, 27);
+  background-color: rgb(255, 239, 220);
+  resize:vertical;
+  cursor:pointer;
+}
+input[type=submit]{
+  background-color: rgb(255, 239, 220);
+  padding: 12px 20px;
+  border: none;
+  float: left;
+  font-size: larger;
+  margin-left: 25px;
+}
+input[type=submit]:hover {
+  background-color: wheat;
+  font-size:xx-large;
+}
 
-  
+label{
+  margin-left: 50px;
+  font-size: xx-large;
+}
+form{
+  display:inline;
+}
+
+input:invalid{
+  border: 10px #805736;
+}
+/* Styling the table*/
+
+
+table th, td{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  align-items: center;
+  font-size: 18px;
+}
+
+tr:first-child{
+  background-color: #805736;
+  border: 1px solid black;
+}
+
+tr:nth-child(odd){
+  background-color: #805736;
+  border: 1px solid black;
+}
