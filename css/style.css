@@ -11,8 +11,13 @@ body{
   margin: 40px;
   padding: 2px;
 }
+.row1{
+  display:inline-block
+}
 
-
+.row2{
+  display:inline-block
+}
 .logo{
   border-radius: 4px;
   transform: rotate(-25deg);
