@@ -3,18 +3,18 @@
 var workhours = ['6 am ', '7 am ', '8 am ', '9 am ', '10 am ', '11 am ', '12 pm ', '1 pm ', '2 pm ', '3 pm ', '4 pm ', '5 pm ', '6 pm ', '7 pm ', '8 pm '];
 
 var Main = document.getElementById('main');
-var tabletag = document.createElement('table');  // Create table.
-var trtag = document.createElement('tr');        // Create tr.
-var thtag = document.createElement('th');        // Create tr blank.
-var tdtag;
-Main.appendChild(tabletag);
-tabletag.appendChild(trtag);
-trtag.appendChild(thtag);
+var tableMake = document.createElement('table');  // Create table.
+var trMake = document.createElement('tr');        // Create tr.
+var thMake = document.createElement('th');        // Create tr blank.
+var tdMake;
+Main.appendChild(tableMake);
+tableMake.appendChild(trMake);
+trMake.appendChild(thMake);
 
 for (var x = 0; x < workhours.length; x++) {
-    thtag = document.createElement('th');     // Creat th for workhours.
-    trtag.appendChild(thtag);
-    thtag.textContent = workhours[x];
+    thMake = document.createElement('th');     // Creat th for workhours.
+    trMake.appendChild(thMake);
+    thMake.textContent = workhours[x];
 }
 
 function getRandomInt(min, max) {
@@ -46,20 +46,20 @@ function EnterBranch(branshName, minCustPerhour, maxCustPerhour,avgCookisPerhout
         }
       };
     this.tableResult= function () {
-        var tdtag;
-        trtag = document.createElement('tr');
-        tabletag.appendChild(trtag);
-        tdtag = document.createElement('td');
-        trtag.appendChild(tdtag);
-        tdtag.textContent = this.location;
+        var tdMake;
+        trMake = document.createElement('tr');
+        tableMake.appendChild(trMake);
+        tdMake = document.createElement('td');
+        trMake.appendChild(tdMake);
+        tdMake.textContent = this.location;
         for (var l = 0; l<14; l++) {
-            tdtag = document.createElement('td');
-            trtag.appendChild(tdtag);
-            tdtag.textContent = this.cookiesPerhour[l];
+            tdMake = document.createElement('td');
+            trMake.appendChild(tdMake);
+            tdMake.textContent = this.cookiesPerhour[l];
         }
-        tdtag = document.createElement('td');
-        trtag.appendChild(tdtag);
-        tdtag.textContent = this.totalCookies;
+        tdMake = document.createElement('td');
+        trMake.appendChild(tdMake);
+        tdMake.textContent = this.totalCookies;
     }
 };  
   
